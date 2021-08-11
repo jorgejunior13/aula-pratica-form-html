@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario04</title>
+    </head>
+    <body>
+        <form style="width: 700px; border: solid 2px; background-color: rgba(150, 185, 94, 0.589);" >
+            <fieldset>
+                <p><b>Manutenção do Orgão colegiado</b></p>
+                    <table border="1" align="center">
+                        <tr>
+                            <td  style="color: rgb(10, 6, 226);">Unidade</td>
+                            <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                        </tr>
+                        <tr>
+                            <td style="color: rgb(38, 0, 255);">Tipo de colegiado</td>
+                            <td>Congregação</td>
+                        </tr>
+
+                    </table>
+'               '<h3 style="border: solid 2px black;">Orgão Colegiado</h3>
+
+                <label for="name">Nome:</label>
+                <input type="text" name="name">
+                <br><br>
+                <label for="Sigla">Sigla:</label>
+                <input type="text" name="Sigla">
+                
+                <label style="padding-left: 305px;" for="status">Status</label>
+                <select>
+                    <option value="">Ativado</option>
+                    <option value="desativado">desativado</option>
+                </select>
+                <br>
+                
+
+                <br>
+                <label for="data">Data Ativação</label>
+                <input type="date" name="data"> 
+
+                <label  style="padding-left: 140px;"  for="data">Data de desativação</label>
+                <input type="date" name="data"> <br><br>
+
+                <label for="orgao">Orgão de origem:</label>
+                <input type="text" name="orgao">
+                <input type="submit" value="Buscar"><br><br>
+
+                <label for="orgao">Orgão superior:</label>
+                <input type="text" name="orgao">
+                <input type="submit" value="Buscar"><br><br>
+
+
+                
+                <label for="documentacao">Documentação</label>
+                <textarea name="documentacao" id="documentacao" cols="30" rows="5"></textarea>
+
+
+                <br><br><br><br>
+                <input type="submit" value="Salvar" style="margin-left: 20px;">
+
+                
+                    <input style="display: inline-block; margin-left: 500px;" type="submit" value="Excluir">  
+                
+                  
+
+            
+            </fieldset>
+        </form>
+        
+     </body>
+
+</html>
